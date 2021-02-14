@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://lib/gg/Engine.gd" type="Script" id=1]
+
+[node name="Engine" type="Node"]
+script = ExtResource( 1 )
+world = NodePath("Field")
+
+[node name="Field" type="Node2D" parent="."]
