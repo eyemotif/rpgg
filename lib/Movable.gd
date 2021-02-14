@@ -14,3 +14,5 @@ func move_to(to_coords: Vector2) -> bool:
 	tail = coords
 	coords = to_coords
 	return true
+
+func _init(coords: Vector2).(coords) -> void: pass
